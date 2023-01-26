@@ -52,12 +52,14 @@ def merge_multiple_dataframe():
     df = df.drop_duplicates().reset_index(drop=1)
 
     logging.info("Saving metadata ingested")
+    logging.info(os.path.join(output_folder_path, 'ingestedfiles.txt'))
     with open(os.path.join(output_folder_path, 'ingestedfiles.txt'), "w") as file:
         file.write(
             f"Ingestion date: {datetime.now().strftime('%d/%m/%Y %H:%M:%S')}\n")
         file.write("\n".join(file_names))
 
     logging.info("Saving data ingested")
+    logging.info(os.path.join(output_folder_path, 'finaldata.csv'))
     df.to_csv(os.path.join(output_folder_path, 'finaldata.csv'), index=False)
 
 

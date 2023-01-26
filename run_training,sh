@@ -1,0 +1,14 @@
+python src/ingestion.py 
+python src/training.py 
+python src/scoring.py 
+python src/deployment.py 
+python src/diagnostics.py
+python src/reporting.py
+python src/app.py
+pytest src/test_api.py -v
+
+#python src/apicalls.py
+
+
+
+

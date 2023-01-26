@@ -37,6 +37,8 @@ response4 = response4.text
 #combine all API responses
 #write the responses to your workspace
 logging.info("Generating report text file")
+logging.info(os.path.join(output_model_path, 'apireturns.txt'))
+
 with open(os.path.join(output_model_path, 'apireturns.txt'), 'w') as file:
     file.write('Endpoint prediction\n')
     file.write(response1)

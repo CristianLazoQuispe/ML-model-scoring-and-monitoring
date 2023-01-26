@@ -1,4 +1,4 @@
-dependencies_dict date: 26/01/2023 12:58:53
+dependencies_dict date: 26/01/2023 15:23:31
 --------------------------------------------------
 package_name=click                version=7.1.2      latest_version=8.1.3                is_outdated=True                
 package_name=cycler               version=0.10.0     latest_version=0.11.0               is_outdated=True                
@@ -24,3 +24,4 @@ package_name=sklearn              version=0.0        latest_version=0.0.post2   
 package_name=threadpoolctl        version=2.1.0      latest_version=3.1.0                is_outdated=True                
 package_name=Werkzeug             version=1.0.1      latest_version=2.2.2                is_outdated=True                
 package_name=outdated             version=0.2.2      latest_version=0.2.2                is_outdated=False               
+package_name=pytest               version=7.2.1      latest_version=7.2.1                is_outdated=False               
