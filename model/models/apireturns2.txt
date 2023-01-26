@@ -1,0 +1,191 @@
+Endpoint prediction
+[
+  1, 
+  1, 
+  1, 
+  0, 
+  1
+]
+
+Endpoint scoring
+f1=0.5714
+Endpoint summarystats
+{
+  "lastmonth_activity": {
+    "mean": 5625.923076923077, 
+    "median": 425.0, 
+    "std": 19444.774621317832
+  }, 
+  "lastyear_activity": {
+    "mean": 763.5384615384615, 
+    "median": 97.5, 
+    "std": 2016.6093569309696
+  }, 
+  "number_of_employees": {
+    "mean": 457.46153846153845, 
+    "median": 99.0, 
+    "std": 800.604832899189
+  }
+}
+
+Endpoint diagnostics
+{
+    "missing_percentage": {
+        "corporation": {
+            "total": 26,
+            "nans": 0,
+            "percentage": 0.0
+        },
+        "lastmonth_activity": {
+            "total": 26,
+            "nans": 0,
+            "percentage": 0.0
+        },
+        "lastyear_activity": {
+            "total": 26,
+            "nans": 0,
+            "percentage": 0.0
+        },
+        "number_of_employees": {
+            "total": 26,
+            "nans": 0,
+            "percentage": 0.0
+        },
+        "exited": {
+            "total": 26,
+            "nans": 0,
+            "percentage": 0.0
+        }
+    },
+    "execution_time": [
+        0.01929676600411767,
+        0.0224476430012146
+    ],
+    "outdated_packages": {
+        "click": {
+            "version": "7.1.2",
+            "latest_version": "8.1.3",
+            "is_outdated": true
+        },
+        "cycler": {
+            "version": "0.10.0",
+            "latest_version": "0.11.0",
+            "is_outdated": true
+        },
+        "Flask": {
+            "version": "1.1.2",
+            "latest_version": "2.2.2",
+            "is_outdated": true
+        },
+        "gunicorn": {
+            "version": "20.0.4",
+            "latest_version": "20.1.0",
+            "is_outdated": true
+        },
+        "itsdangerous": {
+            "version": "1.1.0",
+            "latest_version": "2.1.2",
+            "is_outdated": true
+        },
+        "Jinja2": {
+            "version": "2.11.3",
+            "latest_version": "3.1.2",
+            "is_outdated": true
+        },
+        "joblib": {
+            "version": "1.0.1",
+            "latest_version": "1.2.0",
+            "is_outdated": true
+        },
+        "kiwisolver": {
+            "version": "1.3.1",
+            "latest_version": "1.4.4",
+            "is_outdated": true
+        },
+        "MarkupSafe": {
+            "version": "1.1.1",
+            "latest_version": "2.1.2",
+            "is_outdated": true
+        },
+        "matplotlib": {
+            "version": "3.3.4",
+            "latest_version": "3.6.3",
+            "is_outdated": true
+        },
+        "numpy": {
+            "version": "1.20.1",
+            "latest_version": "1.24.1",
+            "is_outdated": true
+        },
+        "pandas": {
+            "version": "1.2.2",
+            "latest_version": "1.5.3",
+            "is_outdated": true
+        },
+        "Pillow": {
+            "version": "8.1.0",
+            "latest_version": "9.4.0",
+            "is_outdated": true
+        },
+        "pyparsing": {
+            "version": "2.4.7",
+            "latest_version": "3.0.9",
+            "is_outdated": true
+        },
+        "python-dateutil": {
+            "version": "2.8.1",
+            "latest_version": "2.8.2",
+            "is_outdated": true
+        },
+        "pytz": {
+            "version": "2021.1",
+            "latest_version": "2022.7.1",
+            "is_outdated": true
+        },
+        "scikit-learn": {
+            "version": "0.24.1",
+            "latest_version": "1.2.1",
+            "is_outdated": true
+        },
+        "scipy": {
+            "version": "1.6.1",
+            "latest_version": "1.10.0",
+            "is_outdated": true
+        },
+        "seaborn": {
+            "version": "0.11.1",
+            "latest_version": "0.12.2",
+            "is_outdated": true
+        },
+        "six": {
+            "version": "1.15.0",
+            "latest_version": "1.16.0",
+            "is_outdated": true
+        },
+        "sklearn": {
+            "version": "0.0",
+            "latest_version": "0.0.post2",
+            "is_outdated": true
+        },
+        "threadpoolctl": {
+            "version": "2.1.0",
+            "latest_version": "3.1.0",
+            "is_outdated": true
+        },
+        "Werkzeug": {
+            "version": "1.0.1",
+            "latest_version": "2.2.2",
+            "is_outdated": true
+        },
+        "outdated": {
+            "version": "0.2.2",
+            "latest_version": "0.2.2",
+            "is_outdated": false
+        },
+        "pytest": {
+            "version": "7.2.1",
+            "latest_version": "7.2.1",
+            "is_outdated": false
+        }
+    }
+}

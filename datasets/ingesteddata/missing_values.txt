@@ -1,0 +1,7 @@
+summary_statistics date: 26/01/2023 15:23:31
+--------------------------------------------------
+corporation          n_total=26.0000 n_NA=0.0000 n_percentage=0.0000
+lastmonth_activity   n_total=26.0000 n_NA=0.0000 n_percentage=0.0000
+lastyear_activity    n_total=26.0000 n_NA=0.0000 n_percentage=0.0000
+number_of_employees  n_total=26.0000 n_NA=0.0000 n_percentage=0.0000
+exited               n_total=26.0000 n_NA=0.0000 n_percentage=0.0000
